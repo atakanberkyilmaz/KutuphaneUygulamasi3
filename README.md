@@ -76,5 +76,5 @@ Bu komut, Expo CLI ile uygulamayı başlatacak ve QR kodu ile tarayıcınıza ve
 - [Setup](https://reactnative.dev/docs/environment-setup)
 
 ## Uygulamanın APK Linki
--[APK](https://drive.google.com/file/d/1Hug6nOyjZSVMRvfo6JRtMXvSsLMCSAPq/view?usp=sharing)
+- [APK](https://drive.google.com/file/d/1Hug6nOyjZSVMRvfo6JRtMXvSsLMCSAPq/view?usp=sharing)
   
