@@ -136,7 +136,6 @@ const BookListScreen: React.FC = () => {
             { label: 'Tüm Türler', value: '' },
             { label: 'Roman', value: 'Roman' },
             { label: 'Bilim Kurgu', value: 'Bilim Kurgu' },
-            { label: 'Fantastik', value: 'Fantastik ' },
           ]}
           value={selectedGenre}
           style={pickerSelectStyles}
