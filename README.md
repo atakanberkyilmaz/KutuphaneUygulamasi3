@@ -50,9 +50,11 @@ Bu komut, Expo CLI ile uygulamayı başlatacak ve QR kodu ile tarayıcınıza ve
     npm i eslint-plugin-react-hooks -> hook call hatasını çözmek için
     
 ## Teknik Seçimler ve Gerekçelendirmeler
-- Farklı ekranlar arasında gezinmek için React Navigation kütüphanesi kullanılmıştır.
-- Kitap verilerini uygulamanın durumu dışında saklamak için AsyncStorage kullanılmıştır.
-- Minimalist bir UI tasarımı ile kullanıcı dostu bir arayüz oluşturulmuştur.
+- Typescript Kullanımı: Proje TypeScript ile oluşturulmuştur.
+- Redux kullanımı: Redux, uygulamada kitapları listeleme, ekleme, güncelleme ve silme gibi işlevlerin gerçekleştirilmesini basit ve düzenli bir şekilde sağlar.
+- Redux Toolkit: Proje, Redux Toolkit kullanarak Redux store oluşturur ve slice'larla (dilimlerle) durum işlemlerini kolayca tanımlar. BookSlice.ts bunun sayesinde 
+  oluşmuştur
+- FlatList: Kitapları listelemek için FlatList kullanılmaktadır.
 
 ## Kitap Sınıfı
 - Kitap Adı
